@@ -12,6 +12,9 @@ class CardResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
+            'company' => $this->company,
+            'title' => $this->title,
+            'contact' => $this->contact,
             'created_at' => $this->created_at,
         ];
     }
